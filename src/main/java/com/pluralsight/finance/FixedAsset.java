@@ -4,8 +4,19 @@ public abstract class FixedAsset implements Valuable{
     private String name;
     private double marketValue;
 
-    public void getMarketValue() {
+    public String getName() {
+        return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMarketValue(double marketValue) {
+        this.marketValue = marketValue;
+    }
+
+    public abstract double getMarketValue();
 
     public FixedAsset(String name, double marketValue) {
         this.name = name;

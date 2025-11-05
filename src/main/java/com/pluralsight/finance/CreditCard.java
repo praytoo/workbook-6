@@ -12,15 +12,16 @@ public class CreditCard implements Valuable{
     }
 
     @Override
-    public void getMarketValue() {
+    public double getMarketValue() {
 
+        return balance;
     }
 
-    public void charge(){
-
+    public void charge(double amount){
+    balance -= amount;
     }
 
-    public void pay(){
-
+    public void pay(double amount){
+    balance -= amount;
     }
 }

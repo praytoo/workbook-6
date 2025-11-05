@@ -12,15 +12,16 @@ public class BankAccount implements Valuable {
     }
 
     @Override
-    public void getMarketValue() {
+    public double getMarketValue() {
 
+        return balance;
     }
 
-    public void withdraw(){
-
+    public void withdraw(double amount){
+    balance += amount;
     }
 
-    public void deposit(double balance){
-
+    public void deposit(double amount){
+    balance += amount;
     }
 }
