@@ -1,6 +1,4 @@
-package com.pluralsight;
-
-import java.util.List;
+package com.pluralsight.generics;
 
 public class OptionalLite<T> {
     private final T value;

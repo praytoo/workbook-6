@@ -1,8 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.generics;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class MainApp {
     static void main() {
