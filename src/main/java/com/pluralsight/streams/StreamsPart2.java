@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-import static java.lang.StableValue.map;
 import static java.util.stream.Collectors.toList;
 
 public class StreamsPart2 {
